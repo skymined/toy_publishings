@@ -39,6 +39,12 @@ body {
     padding: 0;
 }
 
+.grid_country {
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
 input {
     background-color: rgb(43, 43, 43) ;
     border: 0.5px solid gray;
@@ -46,3 +52,5 @@ input {
     height: 25px;
     border-radius: 5px;
 }
+
+input:
