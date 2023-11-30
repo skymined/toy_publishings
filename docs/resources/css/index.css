@@ -1,0 +1,170 @@
+/* * {
+    border: dotted;
+} */
+
+body{
+    width: 1000px;
+    margin : 50px ;
+    position: relative;
+    text-align: center;
+    background-color:#343a40;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer 밑에 있는 모든 a에 특징 부여하기 */
+a {
+    text-decoration: none white;
+}
+
+/* nav */
+
+.first_nav {
+    text-align: left;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 0;
+}
+
+.second_nav {
+    text-align: right;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.second_nav a {
+    color: white;
+}
+
+.first_nav a:hover {
+    color: gray;
+}
+
+
+/* main*/
+/* table 메인 */
+.table_nav {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.tablenav {
+    list-style-type: none ;
+    display: grid;
+    padding: 0;
+
+}
+
+.table_nav h3 {
+    font-size:xx-large;
+}
+
+.span_gray {
+    color: gray;
+    font-size: large;
+}
+
+.table_head_1, .table_head_2 {
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.table_head_3 {
+    border: 0.5px solid skyblue;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.table_p_1, .table_p_2 {
+    background-color: darkgray;
+    border-bottom: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.table_p_3 {
+    background-color: skyblue;
+    border-bottom: skyblue;
+    margin: 0;
+    padding: 20px;
+}
+
+.button1 {
+    border: 0.5px solid skyblue;
+    background-color:#343a40;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    color: skyblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.button2, .button3 {
+    border: 0.5px solid skyblue;
+    background-color: skyblue;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button1:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.button2:hover, .button3:hover {
+    background-color: rgb(91, 148, 170);
+    border:rgb(91, 148, 170) ;
+}
+
+
+/* Compare plans */
+
+.table_left {
+    text-align: left;
+    width :400px
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.table th,td {
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+
+/* footer */
+.footer {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: left;
+}
+
+footer a {
+    color: gray;
+}
+
+
+footer:visited a{
+    text-decoration: none black;
+}
+
+footer a:hover {
+    color: rgb(94, 94, 94);
+}

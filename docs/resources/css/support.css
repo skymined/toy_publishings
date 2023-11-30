@@ -1,0 +1,48 @@
+body {
+    width: 1000px;
+    margin: 50px;
+    position: relative;
+    background-color: #343a40;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    text-align: center;
+
+}
+
+.main {
+    margin : 10px;
+    padding: 10px;
+}
+
+.grid {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 0;
+
+}
+
+.grid_1 {
+    list-style-type: none;
+    display: grid;
+    padding: 0;
+}
+
+.grid_name {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0;
+}
+
+input {
+    background-color: rgb(43, 43, 43) ;
+    border: 0.5px solid gray;
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+}
